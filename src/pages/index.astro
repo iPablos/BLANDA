@@ -1,0 +1,23 @@
+---
+import LandingHeader from "../components/LandingHeader.astro";
+import Layout from "../layouts/Layout.astro";
+import Iberdrola from "../components/Ibedrola.astro";
+import Gana from "../components/Gana.astro";
+import Naturgy from "../components/Naturgy.astro";
+---
+
+<Layout title="Blanda-Agentes">
+	<LandingHeader />
+
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+		<div class="snap-center">
+			<Iberdrola />
+		</div>
+		<div class="snap-center">
+			<Naturgy />
+		</div>
+		<div class="snap-center">
+			<Gana />
+		</div>
+	</main>
+</Layout>
